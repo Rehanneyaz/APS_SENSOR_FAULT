@@ -9,4 +9,4 @@
 3. ls
 4. ./run.sh
 
-5. use ec3 ip4 public link for airflow for docker
+5. 
