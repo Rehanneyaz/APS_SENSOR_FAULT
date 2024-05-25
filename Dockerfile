@@ -1,5 +1,5 @@
 
-FROM python:3.11
+FROM python:3.8
 USER root
 RUN mkdir /app
 COPY . /app/
