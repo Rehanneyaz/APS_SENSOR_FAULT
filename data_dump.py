@@ -1,9 +1,10 @@
 import pymongo
 import pandas as pd
 import json
-
+from dotenv import load_dotenv
 from sensor.config import mongo_client
-
+print(f"loading environment variable from .env file")
+load_dotenv()
 DATA_FILE_PATH="mongodb+srv://RehanAhmed:Rockythedon420@apsproject.sxv5uf9.mongodb.net/"
 DATABASE_NAME="aps"
 COLLECTION_NAME="sensor"
