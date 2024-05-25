@@ -20,12 +20,12 @@ jobs:
       - name: Install Docker
         run: |
           sudo apt-get update
-          sudo apt-get install -y docker.io
+          sudo apt-get install -y --fix-missing docker.io
 
       - name: Install Utilities
         run: |
           sudo apt-get update
-          sudo apt-get install -y jq unzip
+          sudo apt-get install -y --fix-missing jq unzip
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -62,12 +62,12 @@ jobs:
       - name: Install Docker
         run: |
           sudo apt-get update
-          sudo apt-get install -y docker.io
+          sudo apt-get install -y --fix-missing docker.io
 
       - name: Install Utilities
         run: |
           sudo apt-get update
-          sudo apt-get install -y jq unzip
+          sudo apt-get install -y --fix-missing jq unzip
 
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v1
