@@ -8,3 +8,5 @@
 2. cd action_runner/
 3. ls
 4. ./run.sh
+
+5. use ec3 ip4 public link for airflow
